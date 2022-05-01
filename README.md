@@ -15,12 +15,12 @@
 - ???
 {% for stu in site.stu %}
   <h2>
-    <a href="https://github.com/{{ member.user }}">
-      {{ member.user }} - {{ member.name }}
+    <a href="https://github.com/{{ stu.user }}">
+      {{ stu.user }} - {{ stu.name }}
     </a>
   </h2>
-  ![image]({{ member.image }})
-  <p>{{ member.content | markdownify }}</p>
+  ![image]({{ stu.image }})
+  <p>{{ stu.content | markdownify }}</p>
 {% endfor %}
 
 Last updated: {{ site.time }}
