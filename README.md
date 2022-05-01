@@ -13,7 +13,7 @@
 - byydzh
 - JunboShen
 - ???
-{% for _stu in site.stu %}
+{% for stu in site.stu %}
   <h2>
     <a href="https://github.com/{{ member.user }}">
       {{ member.user }} - {{ member.name }}
