@@ -1,5 +1,11 @@
 # JDBCproject
+{{ member.user }} - {{ member.name }}
+![image]({{ member.image }})
+{{ member.content | markdownify }}
 
+{% endfor %}
+
+Last updated: {{ site.time }}
 
 # how to run
 ```
