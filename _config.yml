@@ -1,6 +1,4 @@
 theme: jekyll-theme-midnight
 collections:
   stu:
-    order:
-    - 1155137891.md
     output: true
