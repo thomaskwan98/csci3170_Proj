@@ -6,13 +6,6 @@
 
 # Contributors
 
-- loookforanans
-- lalalam123
-- ColsonCZH
-- viscory
-- byydzh
-- JunboShen
-- ???
 {% for stu in site.stu %}
   <h2>
     <a href="https://github.com/{{ stu.user }}">
